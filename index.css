@@ -1,0 +1,33 @@
+
+body {
+    background-color:aliceblue;
+}
+
+section {
+    width: 500px;
+    margin: 30px auto;
+    background-color:cadetblue;
+    border: 2px solid teal;
+    padding: 15px;
+
+    color:darkblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: 3px dashed transparent;
+    text-align: end;
+    transition: border 1s ease-out;
+}
+
+a:hover {
+    border: 3px dashed azure;
+    transition: 1s;
+}
